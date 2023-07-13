@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* parent div height 500 width 500, color yellow, dalam 3 children rgb , 100 height width each */
+
+.parent {
+  height: 500px;
+  width: 500px;
+  background: yellow;
+  margin-bottom: 5px;
+}
+
+.children1 {
+  height: 100px;
+  width: 100px;
+  background: red;
+}
+
+.children2 {
+  height: 100px;
+  width: 100px;
+  background: green;
+}
+
+.children3 {
+  height: 100px;
+  width: 100px;
+  background: blue;
+}
+
+.children4 {
+  height: 100px;
+  width: 100px;
+  background: purple;
+}
+
+#section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+
+#section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+#section3 {
+  display: flex;
+  flex-direction: start;
+  justify-content: center;
+  align-items: start;
+}
+
+#section4 {
+  display: flex;
+  flex-direction: start;
+  justify-content: center;
+  align-items: center;
+}
+
+#section5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+}
